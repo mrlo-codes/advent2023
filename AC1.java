@@ -137,8 +137,36 @@ public class AC1
     }
 
     public static int part2(){
-        
+        ArrayList<String> numWords = new ArrayList<String>();
+        numWords.add("one");
+        numWords.add("two");
+        numWords.add("three");
+        numWords.add("four");
+        numWords.add("five");
+        numWords.add("six");
+        numWords.add("seven");
+        numWords.add("eight");
+        numWords.add("nine");
+
+        int[] numPos = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
+
+        String total= "";
+        int sum = 0;
+        for(int i = 0; i < lines.size(); i++){
+
+            for(int j = 0; j < 9; i++){
+                int pos = lines.get(i).indexOf(numWords.get(i));
+            }
+
+            //Continue from here
+
+
+
+
+
 
         return -1;
     }
+
+
 }
