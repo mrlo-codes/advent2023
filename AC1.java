@@ -125,7 +125,7 @@ public class AC1
             }
 
             sum+= Integer.parseInt(total);
-            System.out.println("total: " + total + " sum: " + sum);
+           //System.out.println("total: " + total + " sum: " + sum);
             total = "";
 
 
@@ -155,10 +155,13 @@ public class AC1
         for(int i = 0; i < lines.size(); i++){
 
             for(int j = 0; j < 9; i++){
-                int pos = lines.get(i).indexOf(numWords.get(i));
+                int pos = lines.get(i).indexOf(numWords.get(j));
+                numPos[j] = pos;
+            
             }
 
             //Continue from here
+        }
 
 
 
